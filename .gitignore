@@ -3,7 +3,7 @@
 /app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
-
+/config/tocken.env
 # Email spool folder
 /app/spool/*
 
@@ -14,7 +14,8 @@
 !var/cache/.gitkeep
 !var/logs/.gitkeep
 !var/sessions/.gitkeep
-
+/vendor/*
+/.idea/*
 # Parameters
 /app/config/parameters.yml
 /app/config/parameters.ini
